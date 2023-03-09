@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500&family=Playfair+Display:wght@400;500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #FFF;
+    margin: 0;
+}
+
+.logoyaw {
+    height: 24px;
+}
+
+.container-nav {
+    padding-top: 15px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #dfdfdf;
+    padding-top: 5px;
+}
+
+.navlogo {
+    /* background-color: blue; */
+    width: 70%;
+    display: flex;
+
+}
+
+.logo-image {
+    /* background-color: green; */
+    padding: 20px 10px 20px 70px;
+}
+
+.logo-name {
+    /* background-color: yellow; */
+    padding: 2px;
+}
+
+.logo-name p {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+.navbar {
+    /* background-color: red; */
+    width: 30%;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar li {
+    padding: 25px 20px 5px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #797979;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    font-weight: 600;
+    color: #038123;
+}
+
+.navbar .menu-nav {
+    color: #000;
+    border-bottom: solid 2px #038123;
+}
+
+.navbar .menu-nav:hover {
+    color: #000;
+}
+
+.container-body {
+    height: 700px;
+    display: flex;
+}
+
+.container-body div {
+    height: 100%;
+}
+
+.kiri {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.kiri-1 {
+    padding-top: 60px; 
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #00ac2b;
+    animation: disappear 1s;
+}
+
+@keyframes disappear {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.kiri .eat {
+    margin-top: -5px;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 600;
+    animation: disappear 1s;
+}
+
+.desk-kiri {
+    margin-top: -30px;
+    width: 540px;
+    font-size: 14px;
+    line-height: 20px;
+    animation: disappear 1s;
+}
+
+.order-now {
+    border-radius: 100px;
+    border: solid 0px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #797979;
+    max-width: fit-content;
+    margin-top: 30px;
+    transition: 0.3s;
+    
+}
+
+.order-now:hover {
+    background-color: #00ac2b;
+    color: #FFF;
+}
+
+.review-this {
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    margin-top: -36px;
+    margin-left: 130px;
+    color: #038123;
+    transition: 0.3s;
+    max-width: fit-content;
+}
+
+.review-this:hover {
+    color: #00ac2b;
+}
+
+.kiri a {
+    text-decoration: none;
+}
+
+.supported {
+    margin-top: 60px;
+    margin-bottom: -10px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #797979;
+}
+
+.supported img {
+    height: 30px;
+    margin: -40px 10px 10px 10px;
+}
+
+.supported .kiri-yaw {
+    margin-left: 0px;
+}
+
+.kanan {
+    width: 50%;
+}
+
+.food-one {
+    margin-top: 20px;
+    height: 500px;
+    margin-left: 90px;
+    animation: zoom 1s;
+    
+}
+
+
+@keyframes zoom {
+    from {
+        height: 40px;
+        /* margin-right: 440px; */
+        margin-top: 250px;
+        margin-left: 330px;
+    }
+
+    to {
+
+    }
+}
+
+.middle {
+    width: 78%;
+    margin: -20px  11% 0px 11%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.middle div {
+    width: 280px;
+    background-color: #ffffff;
+    border-radius: 0px 25px;
+    box-shadow: 0 0 40px #ebebeb;
+    padding-bottom: 10px;
+}
+
+.middle div:hover {
+    box-shadow: 0 0 40px #adadad;
+    transition: 1s;
+}
+
+.middle div img {
+    margin-top: 15px;
+    height: 25px;
+}
+
+.middle div h4 {
+    margin-top: 5px;
+}
+
+.middle div p {
+    color: #636363;
+    margin-top: -20px;
+    font-size: 12px;
+    font-weight: 500;
+}
