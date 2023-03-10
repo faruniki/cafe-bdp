@@ -3,12 +3,13 @@
 body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
-    background: #FFF;
+    background: #f8f8f8;
     margin: 0;
 }
 
 .logoyaw {
-    height: 24px;
+    height: 20px;
+    margin-top: 1px;
 }
 
 .container-nav {
@@ -129,11 +130,11 @@ body {
 .order-now {
     border-radius: 100px;
     border: solid 0px;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(241, 241, 241);
     padding: 10px 20px;
     font-size: 12px;
     font-weight: 600;
-    color: #797979;
+    color: #8a8a8a;
     max-width: fit-content;
     margin-top: 30px;
     transition: 0.3s;
@@ -151,13 +152,16 @@ body {
     display: flex;
     margin-top: -36px;
     margin-left: 130px;
-    color: #038123;
+    color: #00b82e93;
     transition: 0.3s;
     max-width: fit-content;
+    opacity: 1;
 }
 
 .review-this:hover {
     color: #00ac2b;
+    opacity: 1;
+    transition: 0.2s;
 }
 
 .kiri a {
@@ -170,11 +174,13 @@ body {
     font-size: 10px;
     font-weight: 500;
     color: #797979;
+    animation: disappear 1s;
 }
 
 .supported img {
     height: 30px;
     margin: -40px 10px 10px 10px;
+    animation: disappear 1s;
 }
 
 .supported .kiri-yaw {
@@ -190,9 +196,20 @@ body {
     height: 500px;
     margin-left: 90px;
     animation: zoom 1s;
-    
+    /* animation: moving 3s linear infinite; */
 }
 
+@keyframes moving {
+    0% {
+        transform: translate(-11px 0);
+    }
+    50% {
+        transform: translate(0, -11px);
+    }
+    100% {
+        transform: translate(-11px, 0px);
+    }
+}
 
 @keyframes zoom {
     from {
@@ -209,12 +226,13 @@ body {
 
 .middle {
     width: 78%;
-    margin: -20px  11% 0px 11%;
+    margin: -20px  11% 80px 11%;
     justify-content: space-around;
     display: flex;
 }
 
 .middle div {
+    margin-top: -50px;
     width: 280px;
     background-color: #ffffff;
     border-radius: 0px 25px;
@@ -233,12 +251,67 @@ body {
 }
 
 .middle div h4 {
+    font-weight: 600;
     margin-top: 5px;
 }
 
 .middle div p {
     color: #636363;
     margin-top: -20px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
+}
+
+.isi-menu {
+
+    width: 70%;
+    margin:  20px 15%;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.isi-menu div {
+    height: 100%;
+}
+
+.kiri-menu {
+    width: 75%;
+
+}
+
+.kanan-menu {
+    width: 25%;
+
+}
+
+.subjudul-menu {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #00ac2b;
+}
+
+.judul-menu {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.desk-menu {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -10px;
+    width: 85%;
+}
+
+.kiri-menu a {
+    text-decoration: none;
+}
+
+.kanan-menu img {
+    margin-top: 0px;
+    height: 230px;
 }
