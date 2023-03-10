@@ -131,6 +131,18 @@
         <img src="assets/images/risol.png" alt="">
     </div>
 </div>
+<div class="isi-menu">
+    <div class="kiri-menu">
+        <p class="subjudul-menu">MAIN COURSE</p>
+        <p class="judul-menu">Mac n Beef Teriyaki</p>
+        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
+        <a href="/"><p class="order-now">Order Now</p></a>
+        <a href="/reviews" class="review-this">Review This Food</a>
+    </div>
+    <div class="kanan-menu">
+        <img src="assets/images/mac.png" alt="">
+    </div>
+</div>
 
 </body>
 </html>
