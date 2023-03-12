@@ -412,16 +412,16 @@ body {
 }
 
 .footercoi div ul p {
-    color: white;
+    color: #000000;
     font-weight: 600;
     font-size: 13px;
 }
 
 .footercoi div ul li a {
     text-decoration: none;
-    color: #FFF;
+    color: #000000;
 }
 
 .footercoi div ul li a:hover {
-    color: #daa300;
+    color: #00ac2b;
 }
