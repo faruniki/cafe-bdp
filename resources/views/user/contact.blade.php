@@ -22,7 +22,7 @@
         <nav class="navbar">
             <a href="/menu" class="menu-nav"><li>Menu</li></a>
             <a href="/order" class="order-nav"><li>Order</li></a>
-            <a href="/reviews" class="reviews-nav"><li>Reviews</li></a>
+            <a href="/reviews" class="reviews-nav"><li>Review</li></a>
             <a href="/contact" class="contact-nav"><li>Contact</li></a>
         </nav>
     </div>

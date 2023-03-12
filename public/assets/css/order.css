@@ -3,12 +3,13 @@
 body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
-    background: #FFF;
+    background: #f8f8f8;
     margin: 0;
 }
 
 .logoyaw {
-    height: 24px;
+    height: 20px;
+    margin-top: 1px;
 }
 
 .container-nav {
@@ -16,7 +17,7 @@ body {
     width: 100%;
     height: 70px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     border-bottom: solid 1px #dfdfdf;
     padding-top: 5px;
 }
@@ -40,7 +41,8 @@ body {
 
 .logo-name p {
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    margin-top: 17px;
+    font-size: 16px;
 }
 
 .navbar {
@@ -58,14 +60,13 @@ body {
 .navbar a {
     text-decoration: none;
     color: #797979;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
 }
 
 .navbar a:hover {
     font-weight: 600;
     color: #038123;
-    
 }
 
 .navbar .order-nav {
@@ -75,4 +76,153 @@ body {
 
 .navbar .order-nav:hover {
     color: #000;
+}
+
+.order-here {
+    margin-top: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.check {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}
+
+.form-order-child select {
+    width: 32%;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 15px;
+    margin: 8px 0px;
+    border: solid 1px black;
+    border-radius: 4px;
+    
+}
+
+.order {
+    border-radius: 100px;
+    border: solid 0px;
+    background-color: #f1f1f1;
+    padding: 15px 14.5%;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #8a8a8a;
+    max-width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.order:hover {
+    background-color: #00ac2b;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+
+.footercoi {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 140px;
+    margin-top: 120px;
+    animation: disappear 2s;
+}
+
+.footercoi div {
+    width: 160px;
+    height: 300px;
+    /* background-color: red; */
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.footercoi div ul li {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.footercoi .footlogo {
+    width: 260px;
+    height: 250px;
+}
+
+.footercoi .footlogo div {
+    height: 125px;
+    width: 260px;
+}
+
+.footercoi .footlogo .ea {
+    /* background-color: blue; */
+    display: flex;
+}
+
+.footercoi .footlogo .ea img {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footercoi .footlogo .ea .wikbooksfoot {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    margin-left: 28px;
+}
+
+.eaa {
+    margin-top: -50px;
+
+}
+
+.judul2-ea {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    font-size: 10px;
+    color: #000000;
+    margin-left: 28px;
+    padding-top: 10px;
+}
+
+.desk2-ea {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+    margin-left: 28px;
+}
+
+.footercoi .footlogo .ea .wikbooksfoot2 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 28px;
+}
+
+.footercoi div ul p {
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.footercoi div ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footercoi div ul li a:hover {
+    color: #00ac2b;
 }

@@ -130,20 +130,20 @@ body {
 .order-now {
     border-radius: 100px;
     border: solid 0px;
-    background-color: rgb(241, 241, 241);
+    background-color: #f1f1f1;
     padding: 10px 20px;
     font-size: 12px;
     font-weight: 600;
     color: #8a8a8a;
     max-width: fit-content;
     margin-top: 30px;
-    transition: 0.3s;
     
 }
 
 .order-now:hover {
     background-color: #00ac2b;
     color: #FFF;
+    transition: 0.3s;
 }
 
 .review-this {
@@ -153,7 +153,6 @@ body {
     margin-top: -36px;
     margin-left: 130px;
     color: #00b82e93;
-    transition: 0.3s;
     max-width: fit-content;
     opacity: 1;
 }

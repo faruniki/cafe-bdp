@@ -144,7 +144,7 @@
     </div>
 </div> 
 
-<footer>
+    <footer>
         <div class="footercoi">
             <div class="footlogo">
                 <div class="ea">
