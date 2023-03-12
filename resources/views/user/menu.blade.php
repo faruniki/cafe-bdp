@@ -39,7 +39,7 @@
         <div class="supported">
             <img src="assets/images/kemenkes.png" class="kiri-yaw" alt="">
             <img src="assets/images/wikrama.png" alt="">
-            <img src="assets/images/unicef.png" alt="">
+            <img src="assets/images/unicef.png" alta="">
         </div>
     </div>
     <div class="kanan">
@@ -71,7 +71,7 @@
     </div>
 </div>
 
-<div class="isi-menu">
+<!-- <div class="isi-menu">
     <div class="kiri-menu">
         <p class="subjudul-menu">MAIN COURSE</p>
         <p class="judul-menu">Authentic Germany Salad</p>
@@ -82,7 +82,7 @@
     <div class="kanan-menu">
         <img src="assets/images/food-1.png" alt="">
     </div>
-</div>
+</div> -->
 <div class="isi-menu">
     <div class="kiri-menu">
         <p class="subjudul-menu">MAIN COURSE</p>
@@ -142,7 +142,53 @@
     <div class="kanan-menu">
         <img src="assets/images/mac.png" alt="">
     </div>
-</div>
+</div> 
+
+<footer>
+        <div class="footercoi">
+            <div class="footlogo">
+                <div class="ea">
+                    <div class="anak-ea">
+                        <p class="wikbooksfoot">CINERATE&#169;</p>
+                        <p class="wikbooksfoot2">Give us your opinion<br> to help peoples.</p>
+                    </div>
+                    <div class="anak2-ea">
+                        
+                    </div>
+                </div>
+                <div class="eaa">
+                    <p class="judul2-ea">About Us</p>
+                        <p class="desk2-ea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cum iste doloribus architecto placeat facilis error debitis aut molestiae quam, id, quod, voluptates dolorum dicta corporis fugiat nostrum beatae officia.</p>
+
+                </div>
+            </div>
+            <div class="foot1">
+                <ul>
+                    <p class="special-1"><b>Popular Movies</b></p>
+                    <li><a href="/books">Eternals (2021)</a></li>
+                    <li><a href="/books">The Boys (2019)</a></li>
+                    <li><a href="/books">Man of Steel (2013)</a></li>
+                    <li><a href="/books">Fight Club (1999)</a></li>
+                    <li><a href="/books">Whiplash (2014)</a></li>
+                </ul>
+            </div>
+            <div class="foot2">
+                <ul>
+                    <p class="special-2"><b>Pages</b></p>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/movies">Movies</a></li>
+                    <li><a href="/review">Review</a></li>
+                </ul>
+            </div>
+            <div class="foot3">
+                <ul>
+                    <p class="special-3"><b>Action</b></p>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
