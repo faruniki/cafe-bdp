@@ -176,6 +176,33 @@ body {
     animation: disappear 1s;
 }
 
+.supported .img1 {
+    filter: contrast(0);
+}
+
+.supported .img2 {
+    filter: contrast(0);
+}
+
+.supported .img3 {
+    filter: contrast(0);
+}
+
+.supported .img1:hover {
+    filter: contrast(1);
+    transition: 0.5s;
+}
+
+.supported .img2:hover {
+    filter: contrast(1);
+    transition: 0.5s;
+}
+
+.supported .img3:hover {
+    filter: contrast(1);
+    transition: 0.5s;
+}
+
 .supported img {
     height: 30px;
     margin: -40px 10px 10px 10px;
@@ -195,6 +222,13 @@ body {
     height: 500px;
     margin-left: 90px;
     animation: zoom 1s;
+    /* animation: moving 3s linear infinite; */
+}
+
+.food-one:hover {
+    height: 520px;
+    margin-left: 80px;
+    transition: 0.5s;
     /* animation: moving 3s linear infinite; */
 }
 
@@ -248,7 +282,7 @@ body {
 
 .middle div img {
     margin-top: 15px;
-    height: 25px;
+    height: 20px;
 }
 
 .middle div h4 {
@@ -315,6 +349,11 @@ body {
 .kanan-menu img {
     margin-top: 0px;
     height: 230px;
+}
+
+.kanan-menu img:hover {
+    transition: 0.3s;
+    height: 235px;
 }
 
 /* .more {

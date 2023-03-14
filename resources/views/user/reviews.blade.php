@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAFE BDP&#169; | Reviews</title>
+    <title>CAFE BDP&#169; | Review</title>
     <link rel="stylesheet" href={{asset("assets/css/reviews.css")}}>
 </head>
 <body>

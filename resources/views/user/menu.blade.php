@@ -37,9 +37,9 @@
         <a href="/reviews" class="review-this">Review This Food</a>
         <p class="supported">Verificated by</p>
         <div class="supported">
-            <img src="assets/images/kemenkes.png" class="kiri-yaw" alt="">
-            <img src="assets/images/wikrama.png" alt="">
-            <img src="assets/images/unicef.png" alta="">
+            <img class="img1" src="assets/images/kemenkes.png" class="kiri-yaw" alt="">
+            <img class="img2" src="assets/images/wikrama.png" alt="">
+            <img class="img3" src="assets/images/unicef.png" alta="">
         </div>
     </div>
     <div class="kanan">
@@ -98,7 +98,7 @@
 <div class="isi-menu">
     <div class="kiri-menu">
         <p class="subjudul-menu">MAIN COURSE</p>
-        <p class="judul-menu">Healthy Seblak with Knoblauch</p>
+        <p class="judul-menu">Healthy Seblak with Knoblauch Dressing</p>
         <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
         <a href="/"><p class="order-now">Order Now</p></a>
         <a href="/reviews" class="review-this">Review This Food</a>
