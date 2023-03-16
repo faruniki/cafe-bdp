@@ -28,5 +28,26 @@
     </div>
 </div>
 
+<div class="div-body">
+    <div class="kiri">
+
+    </div>
+    <div class="kanan">
+        <form action="">
+            <label for="">Your Name :</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="">Your Email :</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="">Messages :</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>

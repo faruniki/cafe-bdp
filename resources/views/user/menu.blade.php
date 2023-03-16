@@ -83,6 +83,12 @@
         <img src="assets/images/food-1.png" alt="">
     </div>
 </div> -->
+<center>
+    <div class="mantapyaw">
+        <p class="rekomen2">Our</p><p class="rekomen">Recommendations</p>
+    </div>
+</center>
+
 <div class="isi-menu">
     <div class="kiri-menu">
         <p class="subjudul-menu">MAIN COURSE</p>
@@ -98,37 +104,13 @@
 <div class="isi-menu">
     <div class="kiri-menu">
         <p class="subjudul-menu">MAIN COURSE</p>
-        <p class="judul-menu">Healthy Seblak with Knoblauch Dressing</p>
+        <p class="judul-menu">Authentic Germany Salad</p>
         <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
         <a href="/"><p class="order-now">Order Now</p></a>
         <a href="/reviews" class="review-this">Review This Food</a>
     </div>
     <div class="kanan-menu">
-        <img src="assets/images/seblak.png" alt="">
-    </div>
-</div>
-<div class="isi-menu">
-    <div class="kiri-menu">
-        <p class="subjudul-menu">DESSERT</p>
-        <p class="judul-menu">Vanilla Whipped Waffle</p>
-        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
-        <a href="/"><p class="order-now">Order Now</p></a>
-        <a href="/reviews" class="review-this">Review This Food</a>
-    </div>
-    <div class="kanan-menu">
-        <img src="assets/images/d1.png" alt="">
-    </div>
-</div>
-<div class="isi-menu">
-    <div class="kiri-menu">
-        <p class="subjudul-menu">APPETIZER</p>
-        <p class="judul-menu">Modern Rissole</p>
-        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
-        <a href="/"><p class="order-now">Order Now</p></a>
-        <a href="/reviews" class="review-this">Review This Food</a>
-    </div>
-    <div class="kanan-menu">
-        <img src="assets/images/risol.png" alt="">
+        <img src="assets/images/food-1.png" alt="">
     </div>
 </div>
 <div class="isi-menu">

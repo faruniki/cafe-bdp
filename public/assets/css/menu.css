@@ -218,17 +218,17 @@ body {
 }
 
 .food-one {
-    margin-top: 20px;
-    height: 500px;
-    margin-left: 90px;
+    margin-top: 3%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     animation: zoom 1s;
     /* animation: moving 3s linear infinite; */
 }
 
 .food-one:hover {
-    height: 520px;
-    margin-left: 80px;
-    transition: 0.5s;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
     /* animation: moving 3s linear infinite; */
 }
 
@@ -246,14 +246,10 @@ body {
 
 @keyframes zoom {
     from {
-        height: 40px;
-        /* margin-right: 440px; */
-        margin-top: 250px;
-        margin-left: 330px;
+        transform: scale(0.1);
     }
 
     to {
-
     }
 }
 
@@ -277,7 +273,9 @@ body {
 
 .middle div:hover {
     box-shadow: 0 0 40px #adadad;
-    transition: 1s;
+    transition: 0.7s;
+    transform: scale(1.1);
+
 }
 
 .middle div img {
@@ -295,6 +293,51 @@ body {
     margin-top: -20px;
     font-size: 10px;
     font-weight: 500;
+}
+
+.rekomen2 {
+    padding-top: 20px;
+    margin: 0px 0px -30px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #038123;
+}
+
+
+.rekomen {
+    font-size: 20px;
+    font-weight: 600;
+    /* font-style: italic; */
+    color: #000;
+    max-width: fit-content;
+    
+}
+
+.mantapyaw {
+    margin: 0px 0px 40px 0px;
+    width: 400px;
+    animation: zoom-2 1s;
+}
+
+@keyframes zoom-2 {
+    0% {
+        transform: scale(0.1);
+    }
+    
+     70% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.mantapyaw:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .isi-menu {
@@ -347,13 +390,12 @@ body {
 }
 
 .kanan-menu img {
-    margin-top: 0px;
-    height: 230px;
+    height: 90%;
 }
 
 .kanan-menu img:hover {
     transition: 0.3s;
-    height: 235px;
+    transform: scale(1.05);
 }
 
 /* .more {

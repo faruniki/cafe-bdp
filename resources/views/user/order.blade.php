@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAFE BDP&#169; | Order</title>
     <link rel="stylesheet" href={{asset("assets/css/order.css")}}>
+    <script src="https://kit.fontawesome.com/96dcb92c2c.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -27,7 +28,7 @@
         </nav>
     </div>
 </div>
-
+<!-- 
 <div class="form-order">
     <form action="" class="form-order-child">
         <center>
@@ -53,8 +54,78 @@
         <button class="order">ORDER</button>
         </center>
     </form>
+</div> -->
+
+<div class="eaw">  
+    <button class="button-30" role="button"><i class="apahayoo fa-solid fa-cart-shopping"></i>Check Out <p class="jikakalau">4</p></button>
 </div>
 
+<center>
+    <div class="mantapyaw">
+        <p class="rekomen2">Our</p><p class="rekomen">Menus</p>
+    </div>
+</center>
+
+<div class="isi-menu">
+    <div class="kiri-menu">
+        <p class="subjudul-menu">MAIN COURSE</p>
+        <p class="judul-menu">Chicken Turkey with Special Dressing</p>
+        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
+        <a href="/"><p class="order-now">Add To Cart</p></a>
+        <a href="/reviews" class="review-this">Review This Food</a>
+    </div>
+    <div class="kanan-menu">
+        <img src="assets/images/chick.png" alt="">
+    </div>
+</div>
+<div class="isi-menu">
+    <div class="kiri-menu">
+        <p class="subjudul-menu">MAIN COURSE</p>
+        <p class="judul-menu">Healthy Seblak with Knoblauch Dressing</p>
+        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
+        <a href="/"><p class="order-now">Add To Cart</p></a>
+        <a href="/reviews" class="review-this">Review This Food</a>
+    </div>
+    <div class="kanan-menu">
+        <img src="assets/images/seblak.png" alt="">
+    </div>
+</div>
+<div class="isi-menu">
+    <div class="kiri-menu">
+        <p class="subjudul-menu">DESSERT</p>
+        <p class="judul-menu">Vanilla Whipped Waffle</p>
+        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
+        <a href="/"><p class="order-now">Add To Cart</p></a>
+        <a href="/reviews" class="review-this">Review This Food</a>
+    </div>
+    <div class="kanan-menu">
+        <img src="assets/images/d1.png" alt="">
+    </div>
+</div>
+<div class="isi-menu">
+    <div class="kiri-menu">
+        <p class="subjudul-menu">APPETIZER</p>
+        <p class="judul-menu">Modern Rissole</p>
+        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
+        <a href="/"><p class="order-now">Add To Cart</p></a>
+        <a href="/reviews" class="review-this">Review This Food</a>
+    </div>
+    <div class="kanan-menu">
+        <img src="assets/images/risol.png" alt="">
+    </div>
+</div>
+<div class="isi-menu">
+    <div class="kiri-menu">
+        <p class="subjudul-menu">MAIN COURSE</p>
+        <p class="judul-menu">Mac n Beef Teriyaki</p>
+        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
+        <a href="/"><p class="order-now">Add To Cart</p></a>
+        <a href="/reviews" class="review-this">Review This Food</a>
+    </div>
+    <div class="kanan-menu">
+        <img src="assets/images/mac.png" alt="">
+    </div>
+</div> 
 
     <footer>
         <div class="footercoi">
