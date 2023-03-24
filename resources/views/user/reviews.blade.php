@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAFE BDP&#169; | Review</title>
+    <link rel="icon" href="{{asset('assets/images/logo.png')}}" type="image/x-icon">
     <link rel="stylesheet" href={{asset("assets/css/reviews.css")}}>
 </head>
 <body>
@@ -20,8 +21,8 @@
     </div>
     <div class="navbar">
         <nav class="navbar">
-            <a href="/menu" class="menu-nav"><li>Menu</li></a>
-            <a href="/order" class="order-nav"><li>Order</li></a>
+            <a href="/" class="menu-nav"><li>Home</li></a>
+            <a href="/menu" class="order-nav"><li>Menu</li></a>
             <a href="/reviews" class="reviews-nav"><li>Review</li></a>
             <a href="/contact" class="contact-nav"><li>Contact</li></a>
         </nav>

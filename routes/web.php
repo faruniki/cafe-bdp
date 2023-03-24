@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('user.home');
 });
 
 Route::get('/layouts.main', function () {
@@ -25,10 +25,6 @@ Route::get('/menu', function () {
     return view('user.menu');
 });
 
-Route::get('/order', function () {
-    return view('user.order');
-});
-
 Route::get('/reviews', function () {
     return view('user.reviews');
 });
@@ -37,3 +33,8 @@ Route::get('/contact', function () {
     return view('user.contact');
 });
 
+//transaction
+
+Route::get('/menu/order', function () {
+    return view('user.order.order');
+});

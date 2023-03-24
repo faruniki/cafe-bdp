@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500&family=Playfair+Display:wght@400;500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+br {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #cc0000;
+  }
+
 body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -90,11 +99,23 @@ body {
 }
 
 .div-body .kiri {
-    width: 60%;
+    width: 40%;
     background-color: blue;
 }
 
+/* Kanan */
+
 .div-body .kanan {
-    width: 40%;
+    width: 60%;
     background-color: yellow;
+}
+
+.title-form {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+}
+
+.desc-form {
+    
 }
