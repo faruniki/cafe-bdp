@@ -2,17 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     public function index(){
         $products = Product::all();
-        return view('product', compact('products'));
+        return view('user.menu', compact('products'));
     }
     public function cart()
     {
-        return view('cart');
+        return view('user.cart');
     }
     public function addToCart($id)
     {

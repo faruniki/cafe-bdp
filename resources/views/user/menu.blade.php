@@ -58,7 +58,7 @@
 </div> -->
 
 <div class="eaw">  
-    <a href="/menu/order" class="button-30" role="button"><i class="apahayoo fa-solid fa-cart-shopping"></i>Check Out <p class="jikakalau">4</p></a>
+    <a href="/cart" class="button-30" role="button"><i class="apahayoo fa-solid fa-cart-shopping"></i>Check Out <p class="jikakalau">{{ count((array) session('cart')) }}</p></a>
 </div>
 
 <center>
@@ -67,66 +67,20 @@
     </div>
 </center>
 
+@foreach($products as $product)
 <div class="isi-menu">
     <div class="kiri-menu">
-        <p class="subjudul-menu">IDR 45.000</p>
-        <p class="judul-menu">Chicken Turkey with Special Dressing</p>
-        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
-        <a href="/"><p class="order-now">Add To Cart</p></a>
+        <p class="subjudul-menu">IDR {{ $product->price }}</p>
+        <p class="judul-menu">{{ $product->name }}</p>
+        <p class="desk-menu">{{ $product->description }}</p>
+        <a href="{{ route('add_to_cart', $product->id) }}"><p class="order-now">Add To Cart</p></a>
         <a href="/reviews" class="review-this">Review This Food</a>
     </div>
     <div class="kanan-menu">
-        <img src="assets/images/chick.png" alt="">
+        <img src="{{ $product->image }}" alt="">
     </div>
 </div>
-<div class="isi-menu">
-    <div class="kiri-menu">
-        <p class="subjudul-menu">IDR 55.000</p>
-        <p class="judul-menu">Healthy Seblak with Knoblauch Dressing</p>
-        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
-        <a href="/"><p class="order-now">Add To Cart</p></a>
-        <a href="/reviews" class="review-this">Review This Food</a>
-    </div>
-    <div class="kanan-menu">
-        <img src="assets/images/seblak.png" alt="">
-    </div>
-</div>
-<div class="isi-menu">
-    <div class="kiri-menu">
-        <p class="subjudul-menu">IDR 24.000</p>
-        <p class="judul-menu">Vanilla Whipped Waffle</p>
-        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
-        <a href="/"><p class="order-now">Add To Cart</p></a>
-        <a href="/reviews" class="review-this">Review This Food</a>
-    </div>
-    <div class="kanan-menu">
-        <img src="assets/images/d1.png" alt="">
-    </div>
-</div>
-<div class="isi-menu">
-    <div class="kiri-menu">
-        <p class="subjudul-menu">IDR 20.000</p>
-        <p class="judul-menu">Modern Rissole</p>
-        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
-        <a href="/"><p class="order-now">Add To Cart</p></a>
-        <a href="/reviews" class="review-this">Review This Food</a>
-    </div>
-    <div class="kanan-menu">
-        <img src="assets/images/risol.png" alt="">
-    </div>
-</div>
-<div class="isi-menu">
-    <div class="kiri-menu">
-        <p class="subjudul-menu">IDR 50.000</p>
-        <p class="judul-menu">Mac n Beef Teriyaki</p>
-        <p class="desk-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam. Nobis ipsa officia aperiam nostrum corporis dignissimos, maxime voluptas, harum culpa quo enim nam incidunt quisquam deleniti, iure quaerat animi?</p>
-        <a href="/"><p class="order-now">Add To Cart</p></a>
-        <a href="/reviews" class="review-this">Review This Food</a>
-    </div>
-    <div class="kanan-menu">
-        <img src="assets/images/mac.png" alt="">
-    </div>
-</div> 
+@endforeach
 
     <footer>
         <div class="footercoi">

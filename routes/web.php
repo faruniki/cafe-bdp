@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ProductController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,10 +23,6 @@ Route::get('/layouts.main', function () {
     return view('layouts.main');
 });
 
-Route::get('/menu', function () {
-    return view('user.menu');
-});
-
 Route::get('/reviews', function () {
     return view('user.reviews');
 });
@@ -35,6 +33,8 @@ Route::get('/contact', function () {
 
 //transaction
 
-Route::get('/menu/order', function () {
-    return view('user.order.order');
-});
+Route::get('menu', [ProductController::class, 'index']);
+Route::get('cart', [ProductController::class, 'cart'])->name('cart');
+Route::get('add-to-cart/{id}', [ProductController::class, 'addToCart'])->name('add_to_cart');
+Route::patch('update-cart', [ProductController::class, 'update'])->name('update_cart');
+Route::delete('remove-from-cart', [ProductController::class, 'remove'])->name('remove_from_cart');

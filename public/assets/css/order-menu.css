@@ -278,6 +278,15 @@ body {
     transition: 0.3s;
 }
 
+.quantity {
+    width: 30px;
+    height: 38px;
+    border: solid 1px #0000007e;
+    color: #000000c0;
+    background-color: #00000000;
+    padding-left: 15px;
+    text-align: center;
+}
 /* Footer */
 
 
