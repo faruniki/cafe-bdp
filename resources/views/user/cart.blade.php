@@ -35,9 +35,9 @@
     </div>
 </div>
 
-<div class="eaw">  
-    <a href="{{ url('/') }}"></a><button class="button-30" role="button"><i class="apahayoo fa-solid fa-basket-shopping"></i><p>IDR 40.000</p><p class="jikakalau">20</p></button>
-</div>
+<!-- <div class="eaw">  
+    <a href="{{ url('/menu') }}"></a><button class="button-30" role="button"><i class="apahayoo fa-solid fa-basket-shopping"></i><p>IDR sekian</p><p class="jikakalau">sekian</p></button>
+</div> -->
 
 <center>
     <div class="mantapyaw">
@@ -57,6 +57,8 @@
             </tr>
         </thead>
         <tbody>
+        <form action="{{route('checkout')}}" method="post">
+        @csrf
         @php $total = 0 @endphp
         @if(session('cart'))
             @foreach(session('cart') as $id => $details)
@@ -78,7 +80,13 @@
             @endforeach
         @endif
         </tbody>
+        <tfoot>
+            <div class="eaw">  
+                <button class="button-30" role="button"><i class="apahayoo fa-solid fa-basket-shopping"></i><p>IDR {{ $total }}</p><p class="jikakalau">count</p></button>
+            </div>
+        </tfoot>
     </table>
+    </form>
 </div>
 
     <footer>
