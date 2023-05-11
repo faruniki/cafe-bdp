@@ -35,6 +35,7 @@
     </div>
 </div>
 
+
 <!-- <div class="eaw">  
     <a href="{{ url('/menu') }}"></a><button class="button-30" role="button"><i class="apahayoo fa-solid fa-basket-shopping"></i><p>IDR sekian</p><p class="jikakalau">sekian</p></button>
 </div> -->
@@ -67,27 +68,31 @@
                     <td class="desc-order" data-th="Product">
                         <img src="{{ $details['image'] }}" alt="">
                         <p class="order-title">{{ $details['name'] }}</p>
+                        <input type="hidden" name="id_product" value="{{ $id }}">
                     </td>
                     <td data-th="Price">Rp {{ $details['price'] }}</td>
                     <td data-th="Quantity">
-                        <input type="number" value="{{ $details['quantity'] }}" class="quantity cart_update" min="1" />
+                        <input type="number" name="total_pesanan" value="{{ $details['quantity'] }}" class="quantity cart_update" min="1" />
                     </td>
                     <td data-th="">
                         <button class="remove-button"><i class="fa-solid fa-xmark"></i></button>
                     </td>
-                    <td data-th="Subtotal">{{ $details['price'] * $details['quantity'] }}</td>
+                    <td data-th="Subtotal">
+                        <input type="hidden" name="totalPrice" value="{{ $details['price'] * $details['quantity'] }}">
+                        {{ $details['price'] * $details['quantity'] }}</td>
                 </tr>
             @endforeach
         @endif
         </tbody>
         <tfoot>
             <div class="eaw">  
-                <button class="button-30" role="button"><i class="apahayoo fa-solid fa-basket-shopping"></i><p>IDR {{ $total }}</p><p class="jikakalau">count</p></button>
+                <button class="button-30" role="button"><i class="apahayoo fa-solid fa-basket-shopping"></i><p>IDR {{ $total }}</p><p class="jikakalau">{{ count((array) session('cart')) }}</p></button>
             </div>
         </tfoot>
     </table>
     </form>
 </div>
+
 
     <footer>
         <div class="footercoi">
@@ -143,7 +148,7 @@
             var ele = $(this);
       
             $.ajax({
-                url: '{{ route('update_cart') }}',
+                url: "{{ route('update_cart') }}",
                 method: "patch",
                 data: {
                     _token: '{{ csrf_token() }}', 
@@ -163,7 +168,7 @@
       
             if(confirm("Do you really want to remove?")) {
                 $.ajax({
-                    url: '{{ route('remove_from_cart') }}',
+                    url: "{{route('remove_from_cart') }}",
                     method: "DELETE",
                     data: {
                         _token: '{{ csrf_token() }}', 
