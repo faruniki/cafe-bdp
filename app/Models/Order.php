@@ -10,5 +10,9 @@ class Order extends Model
     use HasFactory;
 
     protected $table = 'orders';
-    protected $fillable = ['id_product','total_pesanan','totalPrice'];
+    protected $fillable = [
+        'id_product',
+        'total_pesanan',
+        'totalPrice'
+    ];
 }
