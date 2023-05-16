@@ -73,11 +73,6 @@ class ProductController extends Controller
                     'totalPrice' => $totalPrice[$i]
                 ]);
 
-                // $products = Product::where('id_product','=',$id_product)->first();
-                // $total = $products->array['stock']-$total_pesanan[$i];
-                // $products->update([
-                //     'stock' => $total[$i],
-                // ]);
             }
         
             $request->session()->forget('cart');
